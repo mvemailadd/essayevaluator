@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <title>Highliter</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to power words!</h1>
+    <p class="lead">This is a simple content for testing the power <br />word in the passage.</p>
+    <hr class="my-4">
+    <p>Please type or pase the pasagges you want to analyze.</p>
+    <div class="input-group">
+      <textarea id="userInput" class="form-control"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary" id="target">Analyze</button>
+  </div>
+  <div class="resultjumbo jumbotron">
+    <h1 class="display-4">Result:</h1>
+    <span id="result"></span>
+    <span id="counts"></span>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="scripts/jquery-3.2.1.slim.min.js"></script>
+  <script src="scripts/highlight.min.js"></script>
+  <script src="scripts/popper.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+
+  <script src="scripts/keywords.js"></script>
+</body>
+
+</html>
